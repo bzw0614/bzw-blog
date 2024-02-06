@@ -101,12 +101,6 @@
     margin-top: 10px;
 }
 
-.card {
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
-}
 
 /* ElementUI */
 .el-menu {
@@ -180,4 +174,7 @@
 th.el-table__cell {
     background-color: #f8f8f8 !important;
     color: #666;
+}
+.w-e-text img {
+    width: 100% !important;
 }

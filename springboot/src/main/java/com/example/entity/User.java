@@ -16,4 +16,8 @@ public class User extends Account implements Serializable {
     private String email;
     private String info;
     private String birth;
+    private Integer blogCount;
+    private Integer likesCount;
+    private Integer collectCount;
+
 }

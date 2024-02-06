@@ -5,6 +5,8 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import '@/assets/css/global.css'
 import '@/assets/css/theme/index.css'
+import '@/assets/css/iconfont/iconfont.css'
+import 'highlight.js/styles/monokai-sublime.css'
 import request from "@/utils/request";
 
 Vue.config.productionTip = false

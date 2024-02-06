@@ -5,16 +5,23 @@
     <div class="front-header">
       <div class="front-header-left">
         <img src="@/assets/imgs/logo.png" alt="">
-        <div class="title">项目前台</div>
+        <div class="title">博客论坛平台</div>
       </div>
       <div class="front-header-center">
         <div class="front-header-nav">
           <el-menu :default-active="$route.path" mode="horizontal" router>
 						<el-menu-item index="/front/home">首页</el-menu-item>
 						<el-menu-item index="/front/person">个人中心</el-menu-item>
+            <el-menu-item index="/front/activity">活动中心</el-menu-item>
           </el-menu>
         </div>
       </div>
+
+      <div>
+        <el-input style="width: 260px;margin-right: 10px" placeholder="请输入关键字搜索" v-model="title" clearable></el-input>
+        <el-button type="success" @click="goSearch">搜 索</el-button>
+      </div>
+
       <div class="front-header-right">
         <div v-if="!user.username">
           <el-button @click="$router.push('/login')">登录</el-button>
@@ -24,7 +31,7 @@
           <el-dropdown>
             <div class="front-header-dropdown">
               <img :src="user.avatar" alt="">
-              <div style="margin-left: 10px">
+              <div style="margin-left: 10px;color: #ffffff">
                 <span>{{ user.name }}</span><i class="el-icon-arrow-down" style="margin-left: 5px"></i>
               </div>
             </div>
@@ -54,6 +61,7 @@ export default {
     return {
       top: '',
       notice: [],
+      title:'',
       user: JSON.parse(localStorage.getItem("xm-user") || '{}'),
     }
   },
@@ -62,6 +70,9 @@ export default {
     this.loadNotice()
   },
   methods: {
+    goSearch(){
+      window.open('/front/search?title='+this.title)
+    },
     loadNotice() {
       this.$request.get('/notice/selectAll').then(res => {
         this.notice = res.data

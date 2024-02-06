@@ -10,8 +10,10 @@
     "axios": "^1.5.1",
     "core-js": "^3.8.3",
     "element-ui": "^2.15.14",
+    "highlight.js": "^11.9.0",
     "vue": "^2.6.14",
-    "vue-router": "^3.5.1"
+    "vue-router": "^3.5.1",
+    "wangeditor": "^4.7.15"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
