@@ -5,472 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d73c6f48-463b-49f9-a102-768dc0204948" name="Changes" comment="blog">
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/common/enums/LikesModuleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/controller/ActivityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/controller/CollectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/controller/LikesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/entity/Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/entity/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/entity/Collect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/entity/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/entity/Likes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/mapper/ActivityMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/mapper/BlogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/mapper/CollectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/mapper/CommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/mapper/LikesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/service/ActivityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/service/CollectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/service/LikesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/resources/mapper/ActivityMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/resources/mapper/BlogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/resources/mapper/CollectMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/resources/mapper/LikesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/assets/css/iconfont/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/assets/css/iconfont/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/assets/css/iconfont/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/assets/css/iconfont/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/components/BlogList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/components/Comment.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/components/Footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/components/Identify.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/views/front/BlogDetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/views/front/Search.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/views/manager/Activity.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/views/manager/Blog.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/views/manager/Category.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/src/views/manager/Comment.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91878958-493f-4101-8356-8d8208c86745.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/91878958-493f-4101-8356-8d8208c86745.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/common/config/JwtInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/common/config/JwtInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/controller/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/controller/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/utils/TokenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/utils/TokenUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/common/config/JwtInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/common/config/JwtInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/controller/FileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/controller/WebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/controller/WebController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/utils/TokenUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/utils/TokenUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/vue/.env.development" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/vue/.env.production" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/highlight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/1c.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/1c.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/abnf.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/abnf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/accesslog.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/accesslog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/actionscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/actionscript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/ada.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/ada.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/angelscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/angelscript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/apache.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/apache.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/applescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/applescript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/arcade.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/arcade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/arduino.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/arduino.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/armasm.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/armasm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/asciidoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/asciidoc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/aspectj.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/aspectj.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/autohotkey.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/autohotkey.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/autoit.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/autoit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/avrasm.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/avrasm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/awk.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/awk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/axapta.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/axapta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/bash.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/bash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/basic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/brainfuck.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/brainfuck.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/c-like.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/c.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/c.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/cal.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/cal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/capnproto.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/capnproto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/ceylon.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/ceylon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/clean.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/clojure-repl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/clojure-repl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/clojure.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/clojure.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/cmake.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/cmake.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/coffeescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/coffeescript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/coq.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/coq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/cos.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/cos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/cpp.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/cpp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/crmsh.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/crmsh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/crystal.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/crystal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/csharp.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/csharp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/csp.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/csp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/css.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/css.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/d.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/dart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/delphi.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/delphi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/diff.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/diff.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/django.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/django.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/dns.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/dns.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/dockerfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/dockerfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/dos.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/dos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/dsconfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/dsconfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/dts.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/dts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/dust.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/dust.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/elixir.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/elixir.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/elm.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/elm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/erlang-repl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/erlang-repl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/erlang.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/erlang.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/excel.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/excel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/fix.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/fix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/flix.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/flix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/fortran.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/fortran.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/fsharp.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/fsharp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/gams.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/gams.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/gauss.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/gauss.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/gcode.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/gcode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/gherkin.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/gherkin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/glsl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/glsl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/gml.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/gml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/go.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/go.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/golo.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/golo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/gradle.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/gradle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/groovy.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/groovy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/haml.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/haml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/handlebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/handlebars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/haskell.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/haskell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/haxe.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/haxe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/hsp.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/hsp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/htmlbars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/http.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/hy.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/hy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/inform7.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/inform7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/ini.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/ini.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/irpf90.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/irpf90.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/isbl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/isbl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/java.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/java.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/jboss-cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/jboss-cli.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/json.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/json.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/julia-repl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/julia-repl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/julia.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/julia.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/kotlin.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/kotlin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/lasso.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/lasso.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/latex.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/latex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/ldif.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/ldif.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/leaf.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/leaf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/less.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/less.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/lisp.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/lisp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/livecodeserver.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/livecodeserver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/livescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/livescript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/llvm.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/llvm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/lsl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/lsl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/lua.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/lua.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/makefile.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/makefile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/markdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/mathematica.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/mathematica.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/matlab.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/matlab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/maxima.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/maxima.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/mel.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/mel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/mercury.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/mercury.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/mipsasm.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/mipsasm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/mizar.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/mizar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/monkey.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/monkey.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/moonscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/moonscript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/n1ql.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/n1ql.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/nginx.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/nginx.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/nim.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/nim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/nix.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/nix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/node-repl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/node-repl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/nsis.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/nsis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/objectivec.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/objectivec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/ocaml.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/ocaml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/openscad.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/openscad.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/oxygene.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/oxygene.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/parser3.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/parser3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/perl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/perl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/pf.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/pf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/pgsql.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/pgsql.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/php.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/php.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/pony.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/pony.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/powershell.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/powershell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/processing.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/processing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/prolog.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/prolog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/properties.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/properties.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/protobuf.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/protobuf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/puppet.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/puppet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/purebasic.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/purebasic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/python-repl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/python-repl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/python.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/python.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/qml.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/qml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/r.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/r.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/reasonml.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/reasonml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/rib.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/rib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/routeros.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/routeros.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/rsl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/rsl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/ruby.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/ruby.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/ruleslanguage.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/ruleslanguage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/rust.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/rust.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/sas.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/sas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/scala.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/scala.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/scheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/scheme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/scilab.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/scilab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/scss.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/scss.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/shell.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/shell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/smali.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/smali.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/smalltalk.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/smalltalk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/sml.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/sml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/sqf.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/sqf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/sql.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/sql.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/sql_more.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/stan.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/stan.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/stata.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/stata.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/step21.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/step21.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/stylus.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/stylus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/subunit.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/subunit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/swift.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/swift.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/taggerscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/taggerscript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/tap.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/tap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/tcl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/tcl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/thrift.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/thrift.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/tp.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/tp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/twig.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/twig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/typescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/typescript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/vala.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/vala.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/vbnet.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/vbnet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/vbscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/vbscript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/verilog.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/verilog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/vhdl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/vhdl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/vim.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/vim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/x86asm.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/x86asm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/xl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/xl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/xml.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/xml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/xquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/xquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/yaml.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/yaml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/zephir.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/lib/languages/zephir.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/a11y-dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/a11y-dark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/a11y-light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/a11y-light.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/agate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/agate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/an-old-hope.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/an-old-hope.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/androidstudio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/androidstudio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/arduino-light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/arduino-light.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/arta.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/arta.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/ascetic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/ascetic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-cave-dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-cave-light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-dune-dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-dune-light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-estuary-dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-estuary-light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-forest-dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-forest-light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-heath-dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-heath-light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-lakeside-dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-lakeside-light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-plateau-dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-plateau-light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-savanna-dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-savanna-light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-seaside-dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-seaside-light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-sulphurpool-dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atelier-sulphurpool-light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atom-one-dark-reasonable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atom-one-dark-reasonable.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atom-one-dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atom-one-dark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atom-one-light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/atom-one-light.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/brown-paper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/brown-paper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/brown-papersq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/codepen-embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/codepen-embed.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/color-brewer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/color-brewer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/darcula.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/dark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/docco.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/docco.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/dracula.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/far.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/far.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/foundation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/foundation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/github-gist.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/github.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/github.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/gml.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/gml.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/googlecode.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/googlecode.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/gradient-dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/gradient-dark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/gradient-light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/gradient-light.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/grayscale.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/grayscale.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/gruvbox-dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/gruvbox-light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/hopscotch.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/hybrid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/hybrid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/idea.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/idea.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/ir-black.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/ir-black.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/isbl-editor-dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/isbl-editor-dark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/isbl-editor-light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/isbl-editor-light.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/kimbie.dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/kimbie.light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/lightfair.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/lightfair.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/lioshi.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/lioshi.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/magula.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/magula.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/mono-blue.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/mono-blue.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/monokai-sublime.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/monokai-sublime.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/monokai.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/monokai.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/night-owl.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/night-owl.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/nnfx-dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/nnfx-dark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/nnfx.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/nord.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/nord.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/obsidian.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/obsidian.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/ocean.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/paraiso-dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/paraiso-dark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/paraiso-light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/paraiso-light.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/pojoaque.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/pojoaque.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/pojoaque.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/purebasic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/purebasic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/qtcreator_dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/qtcreator_light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/railscasts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/rainbow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/rainbow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/routeros.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/routeros.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/school-book.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/school-book.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/school-book.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/shades-of-purple.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/shades-of-purple.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/solarized-dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/solarized-light.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/srcery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/srcery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/stackoverflow-dark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/stackoverflow-dark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/stackoverflow-light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/stackoverflow-light.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/sunburst.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/sunburst.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/tomorrow-night-blue.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/tomorrow-night-blue.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/tomorrow-night-bright.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/tomorrow-night-bright.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/tomorrow-night-eighties.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/tomorrow-night.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/tomorrow.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/vs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/vs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/vs2015.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/vs2015.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/xcode.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/xcode.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/xt256.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/xt256.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/scss/zenburn.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/a11y-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/a11y-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/a11y-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/a11y-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/agate.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/agate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/an-old-hope.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/an-old-hope.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/androidstudio.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/androidstudio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/arduino-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/arduino-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/arta.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/arta.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/ascetic.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/ascetic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-cave-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-cave-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-dune-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-dune-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-estuary-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-estuary-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-forest-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-forest-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-heath-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-heath-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-lakeside-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-lakeside-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-plateau-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-plateau-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-savanna-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-savanna-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-seaside-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-seaside-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-sulphurpool-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atelier-sulphurpool-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atom-one-dark-reasonable.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atom-one-dark-reasonable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atom-one-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atom-one-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atom-one-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/atom-one-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/brown-paper.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/brown-paper.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/codepen-embed.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/codepen-embed.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/color-brewer.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/color-brewer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/darcula.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/docco.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/docco.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/dracula.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/far.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/far.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/foundation.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/foundation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/github-gist.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/github.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/gml.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/gml.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/googlecode.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/googlecode.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/gradient-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/gradient-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/gradient-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/gradient-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/grayscale.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/grayscale.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/gruvbox-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/gruvbox-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/hopscotch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/hybrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/hybrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/idea.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/idea.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/ir-black.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/ir-black.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/isbl-editor-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/isbl-editor-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/isbl-editor-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/isbl-editor-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/kimbie.dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/kimbie.light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/lightfair.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/lightfair.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/lioshi.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/lioshi.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/magula.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/magula.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/mono-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/mono-blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/monokai-sublime.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/monokai-sublime.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/monokai.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/monokai.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/night-owl.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/night-owl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/nnfx-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/nnfx-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/nnfx.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/nord.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/nord.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/obsidian.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/obsidian.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/ocean.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/paraiso-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/paraiso-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/paraiso-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/paraiso-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/pojoaque.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/pojoaque.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/purebasic.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/purebasic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/qtcreator_dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/qtcreator_light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/railscasts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/rainbow.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/rainbow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/routeros.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/routeros.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/school-book.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/school-book.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/school-book.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/shades-of-purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/shades-of-purple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/solarized-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/solarized-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/srcery.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/srcery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/stackoverflow-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/stackoverflow-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/stackoverflow-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/stackoverflow-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/sunburst.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/sunburst.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/tomorrow-night-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/tomorrow-night-blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/tomorrow-night-bright.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/tomorrow-night-bright.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/tomorrow-night-eighties.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/tomorrow-night.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/tomorrow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/vs.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/vs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/vs2015.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/vs2015.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/xcode.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/xcode.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/xt256.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/xt256.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/styles/zenburn.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/node_modules/highlight.js/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vue/node_modules/highlight.js/types/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/assets/css/front.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/assets/css/front.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/assets/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/assets/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/assets/css/manager.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/assets/css/manager.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/Front.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/Front.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/Manager.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/Manager.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/Register.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/front/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/front/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/src/views/front/Person.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/front/Person.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -519,31 +54,35 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowRebel Run.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/23123/Desktop/manager/vue/src/views/manager&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;d164d99c46d45be6b1e7585ff7ea10e7&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowRebel Run.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/23123/Desktop/manager/vue/src/views/manager",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "d164d99c46d45be6b1e7585ff7ea10e7",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
+    ],
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -606,7 +145,7 @@
       <workItem from="1706926700878" duration="23011000" />
       <workItem from="1707015635094" duration="14430000" />
       <workItem from="1707096302746" duration="14341000" />
-      <workItem from="1707185804846" duration="898000" />
+      <workItem from="1707185804846" duration="1691000" />
     </task>
     <task id="LOCAL-00001" summary="blog初始项目">
       <created>1706674065562</created>
@@ -622,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706675727243</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="blog">
+      <created>1707186956241</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707186956241</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
