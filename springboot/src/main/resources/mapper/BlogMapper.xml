@@ -9,6 +9,44 @@
         ,title,content,descr,cover,tags,user_id,date,read_count,category_id
     </sql>
 
+    <select id="selectLike" resultType="com.example.entity.Blog">
+        select blog.*, user.name as userName
+        from likes
+        left join blog
+        on likes.fid = blog.id
+        left join category
+        on blog.category_id = category.id
+        left join user
+        on blog.user_id = user.id
+        <where>
+            and likes.module = '博客'
+            <if test="title != null">and blog.title like concat('%', #{title}, '%')</if>
+            <if test="categoryName != null">and category.name like concat('%', #{categoryName}, '%')</if>
+            <if test="userName != null">and user.name like concat('%', #{userName}, '%')</if>
+            <if test="userId != null">and likes.user_id = #{userId}</if>
+        </where>
+        order by id desc
+    </select>
+
+    <select id="selectCollect" resultType="com.example.entity.Blog">
+        select blog.*, user.name as userName
+        from collect
+        left join blog
+        on collect.fid = blog.id
+        left join category
+        on blog.category_id = category.id
+        left join user
+        on blog.user_id = user.id
+        <where>
+            and collect.module = '博客'
+            <if test="title != null">and blog.title like concat('%', #{title}, '%')</if>
+            <if test="categoryName != null">and category.name like concat('%', #{categoryName}, '%')</if>
+            <if test="userName != null">and user.name like concat('%', #{userName}, '%')</if>
+            <if test="userId != null">and collect.user_id = #{userId}</if>
+        </where>
+        order by id desc
+    </select>
+
     <select id="selectAll" resultType="com.example.entity.Blog">
         select
         blog.*, category.name as categoryName, user.name as userName
@@ -21,6 +59,7 @@
             <if test="title != null">and blog.title like concat('%', #{title}, '%')</if>
             <if test="categoryName != null">and category.name like concat('%', #{categoryName}, '%')</if>
             <if test="userName != null">and user.name like concat('%', #{userName}, '%')</if>
+            <if test="userId != null">and user.id  = #{userId}</if>
         </where>
         order by id desc
     </select>

@@ -4,8 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d73c6f48-463b-49f9-a102-768dc0204948" name="Changes" comment="blog">
+    <list default="true" id="d73c6f48-463b-49f9-a102-768dc0204948" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/controller/ActivitySignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/entity/ActivitySign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/mapper/ActivitySignMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/service/ActivitySignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/components/ActivityList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/components/PersonPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/front/Activity.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/front/ActivityDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/front/NewBlog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/manager/ActivitySign.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91878958-493f-4101-8356-8d8208c86745.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/91878958-493f-4101-8356-8d8208c86745.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/common/enums/ResultCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/common/enums/ResultCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/controller/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/controller/ActivityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/entity/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/entity/Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/mapper/ActivityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/mapper/ActivityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/mapper/BlogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/mapper/BlogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/service/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/service/ActivityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/com/example/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/example/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/resources/mapper/ActivityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/resources/mapper/ActivityMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/resources/mapper/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/resources/mapper/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/common/enums/ResultCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/common/enums/ResultCodeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/controller/ActivityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/controller/ActivityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/controller/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/controller/BlogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/entity/Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/entity/Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/mapper/ActivityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/mapper/ActivityMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/mapper/BlogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/mapper/BlogMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/service/ActivityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/service/ActivityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/service/BlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/com/example/service/BlogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/target/classes/mapper/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/mapper/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/components/BlogList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/components/BlogList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/Manager.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/Manager.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/front/BlogDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/front/BlogDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/src/views/front/Person.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/src/views/front/Person.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,35 +89,35 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowRebel Run.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/23123/Desktop/manager/vue/src/views/manager",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "d164d99c46d45be6b1e7585ff7ea10e7",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowRebel Run.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/23123/Desktop/manager/vue/src/views/manager&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d164d99c46d45be6b1e7585ff7ea10e7&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ],
-    "DatabaseDriversLRU": [
-      "mysql"
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -95,16 +130,17 @@
       <recent name="C:\Users\23123\Desktop\manager\vue\src\assets\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\23123\Desktop\manager\vue\src\views\front" />
       <recent name="C:\Users\23123\Desktop\manager\vue\src\assets\imgs" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.mapper" />
-      <recent name="com.example.service" />
-      <recent name="com.example.entity" />
       <recent name="com.example.controller" />
+      <recent name="com.example.service" />
+      <recent name="com.example.mapper" />
+      <recent name="com.example.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.serve">
+  <component name="RunManager" selected="Spring Boot.SpringbootApplication">
     <configuration name="SpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="springboot" />
@@ -145,7 +181,8 @@
       <workItem from="1706926700878" duration="23011000" />
       <workItem from="1707015635094" duration="14430000" />
       <workItem from="1707096302746" duration="14341000" />
-      <workItem from="1707185804846" duration="1691000" />
+      <workItem from="1707185804846" duration="23509000" />
+      <workItem from="1707275243454" duration="16407000" />
     </task>
     <task id="LOCAL-00001" summary="blog初始项目">
       <created>1706674065562</created>
@@ -168,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707186956241</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="blog">
+      <created>1707187649629</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707187649629</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -43,10 +43,11 @@
               <i class="el-icon-menu"></i><span>信息管理</span>
             </template>
             <el-menu-item index="/notice">公告信息</el-menu-item>
-            <el-menu-item index="category">博客分类</el-menu-item>
+            <el-menu-item index="/category">博客分类</el-menu-item>
             <el-menu-item index="/blog">博客信息</el-menu-item>
             <el-menu-item index="/activity">活动信息</el-menu-item>
             <el-menu-item index="/comment">评论信息</el-menu-item>
+            <el-menu-item index="/activitySign">活动报名</el-menu-item>
           </el-submenu>
 
           <el-submenu index="user">
@@ -79,11 +80,16 @@ export default {
   created() {
     if (!this.user.id) {
       this.$router.push('/login')
+    }else if(this.user.role === 'USER'){
+      this.$router.push('/front/home').then(() => {
+        window.location.reload();
+      });
     }
   },
   methods: {
     updateUser() {
-      this.user = JSON.parse(localStorage.getItem('xm-user') || '{}')   // 重新获取下用户的最新信息
+      this.user = JSON.parse(localStorage.getItem('xm-user') || '{}')
+      // 重新获取下用户的最新信息
     },
     goToPerson() {
       if (this.user.role === 'ADMIN') {

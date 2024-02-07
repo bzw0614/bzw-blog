@@ -85,11 +85,65 @@ public class ActivityController {
     }
 
     /**
+     * 查询用户报名的活动列表
+     */
+    @GetMapping("/selectUser")
+    public Result selectUser(Activity activity,
+                             @RequestParam(defaultValue = "1") Integer pageNum,
+                             @RequestParam(defaultValue = "10") Integer pageSize) {
+        PageInfo<Activity> page = activityService.selectUser(activity, pageNum, pageSize);
+        return Result.success(page);
+    }
+
+
+    /**
+     * 查询用户点赞的活动列表
+     */
+    @GetMapping("/selectLike")
+    public Result selectLike(Activity activity,
+                             @RequestParam(defaultValue = "1") Integer pageNum,
+                             @RequestParam(defaultValue = "10") Integer pageSize) {
+        PageInfo<Activity> page = activityService.selectLike(activity, pageNum, pageSize);
+        return Result.success(page);
+    }
+
+    /**
+     * 查询用户收藏的活动列表
+     */
+    @GetMapping("/selectCollect")
+    public Result selectCollect(Activity activity,
+                                @RequestParam(defaultValue = "1") Integer pageNum,
+                                @RequestParam(defaultValue = "10") Integer pageSize) {
+        PageInfo<Activity> page = activityService.selectCollect(activity, pageNum, pageSize);
+        return Result.success(page);
+    }
+
+    /**
+     * 查询用户评论的活动列表
+     */
+//    @GetMapping("/selectComment")
+//    public Result selectComment(Activity activity,
+//                                @RequestParam(defaultValue = "1") Integer pageNum,
+//                                @RequestParam(defaultValue = "10") Integer pageSize) {
+//        PageInfo<Activity> page = activityService.selectComment(activity, pageNum, pageSize);
+//        return Result.success(page);
+//    }
+
+
+
+
+    /**
      * 博客榜单
      */
     @GetMapping("/selectTop")
     public Result selectTop() {
         List<Activity> list = activityService.selectTop();
         return Result.success(list);
+    }
+
+    @PutMapping("/updateReadCount/{activityId}")
+    public Result updateReadCount(@PathVariable Integer activityId) {
+        activityService.updateReadCount(activityId);
+        return Result.success();
     }
 }

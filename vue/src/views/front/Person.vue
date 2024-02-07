@@ -1,60 +1,58 @@
 <template>
-  <div class="main-content">
-    <el-card style="width: 50%; margin: 30px auto">
-      <div style="text-align: right; margin-bottom: 20px">
-        <el-button type="primary" @click="updatePassword">修改密码</el-button>
-      </div>
-      <el-form :model="user" label-width="80px" style="padding-right: 20px">
-        <div style="margin: 15px; text-align: center">
-          <el-upload
-              class="avatar-uploader"
-              :action="$baseUrl + '/files/upload'"
-              :show-file-list="false"
-              :on-success="handleAvatarSuccess"
-          >
-            <img v-if="user.avatar" :src="user.avatar" class="avatar" />
-            <i v-else class="el-icon-plus avatar-uploader-icon"></i>
-          </el-upload>
+  <div class="main-content" style="width: 50%">
+
+    <el-tabs v-model="activeName" @tab-click="clickTab">
+      <el-tab-pane label="个人资料" name="个人资料">
+        <person-page @update:user="updateUser"/>
+      </el-tab-pane>
+      <el-tab-pane label="我发表的博客" name="我发表的博客">
+        <div class="card" style="padding: 5px"><el-button type="primary" @click="addBlog">发表新博客</el-button></div>
+        <div style="margin-top: 10px">
+          <blog-list type="user" :show-opt="true" />
         </div>
-        <el-form-item label="用户名" prop="username">
-          <el-input v-model="user.username" placeholder="用户名" disabled></el-input>
-        </el-form-item>
-        <el-form-item label="姓名" prop="name">
-          <el-input v-model="user.name" placeholder="姓名"></el-input>
-        </el-form-item>
-        <el-form-item label="电话" prop="phone">
-          <el-input v-model="user.phone" placeholder="电话"></el-input>
-        </el-form-item>
-        <el-form-item label="邮箱" prop="email">
-          <el-input v-model="user.email" placeholder="邮箱"></el-input>
-        </el-form-item>
-        <div style="text-align: center; margin-bottom: 20px">
-          <el-button type="primary" @click="update">保 存</el-button>
+      </el-tab-pane>
+      <el-tab-pane label="我报名的活动" name="我报名的活动">
+        <activity-list type="user" :span="8" />
+      </el-tab-pane>
+      <el-tab-pane label="我的点赞" name="我的点赞">
+        <div class="card" style="padding: 5px;display: flex" >
+          <div class="category-btn" :class="{'active':likesCurrent === '博客'}" @click="likesCurrent = '博客'">博客</div>
+          <div class="category-btn" :class="{'active':likesCurrent === '活动'}" @click="likesCurrent = '活动'">活动</div>
         </div>
-      </el-form>
-    </el-card>
-    <el-dialog title="修改密码" :visible.sync="dialogVisible" width="30%" :close-on-click-modal="false" destroy-on-close>
-      <el-form :model="user" label-width="80px" style="padding-right: 20px" :rules="rules" ref="formRef">
-        <el-form-item label="原始密码" prop="password">
-          <el-input show-password v-model="user.password" placeholder="原始密码"></el-input>
-        </el-form-item>
-        <el-form-item label="新密码" prop="newPassword">
-          <el-input show-password v-model="user.newPassword" placeholder="新密码"></el-input>
-        </el-form-item>
-        <el-form-item label="确认密码" prop="confirmPassword">
-          <el-input show-password v-model="user.confirmPassword" placeholder="确认密码"></el-input>
-        </el-form-item>
-      </el-form>
-      <div slot="footer" class="dialog-footer">
-        <el-button @click="fromVisible = false">取 消</el-button>
-        <el-button type="primary" @click="save">确 定</el-button>
-      </div>
-    </el-dialog>
+        <div style="margin-top: 10px">
+          <blog-list v-if="likesCurrent === '博客'" type="like"></blog-list>
+          <activity-list v-if="likesCurrent === '活动'" :span="8" type="like"></activity-list>
+        </div>
+      </el-tab-pane>
+      <el-tab-pane label="我的收藏" name="我的收藏">
+        <div class="card" style="padding: 5px;display: flex" >
+          <div class="category-btn" :class="{'active':collectCurrent === '博客'}" @click="collectCurrent = '博客'">博客</div>
+          <div class="category-btn" :class="{'active':collectCurrent === '活动'}" @click="collectCurrent = '活动'">活动</div>
+        </div>
+        <div style="margin-top: 10px">
+          <blog-list v-if="collectCurrent === '博客'" type="collect"></blog-list>
+          <activity-list v-if="collectCurrent === '活动'" :span="8" type="collect"></activity-list>
+        </div>
+      </el-tab-pane>
+    </el-tabs>
+
+    <Footer />
   </div>
 </template>
 
 <script>
+import Footer from "@/components/Footer";
+import PersonPage from "@/components/PersonPage";
+import BlogList from "@/components/BlogList";
+import ActivityList from "@/components/ActivityList";
+
 export default {
+  components: {
+    ActivityList,
+    BlogList,
+    Footer,
+    PersonPage
+  },
   data() {
     const validatePassword = (rule, value, callback) => {
       if (value === '') {
@@ -79,13 +77,25 @@ export default {
         confirmPassword: [
           { validator: validatePassword, required: true, trigger: 'blur' },
         ],
-      }
+      },
+      activeName: '个人资料',
+      likesCurrent:'博客',
+      collectCurrent:'博客'
     }
   },
   created() {
 
   },
   methods: {
+    updateUser(){
+      this.$emit('update:user')
+    },
+    addBlog() {
+      window.open('/front/newBlog')
+    },
+    clickTab(tab) {
+      console.log(tab)
+    },
     update() {
       // 保存当前的用户信息到数据库
       this.$request.put('/user/update', this.user).then(res => {
@@ -160,5 +170,12 @@ export default {
   height: 120px;
   display: block;
   border-radius: 50%;
+}
+.category-btn{
+  width: fit-content;padding: 5px 10px;cursor: pointer;border-radius: 5px;
+}
+.active{
+  background-color: #2a60c9 !important;
+  color: white !important;
 }
 </style>

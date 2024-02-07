@@ -1049,359 +1049,355 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_unicode_ci</CollationName>
     </table>
-    <table id="304" parent="288" name="admin">
+    <table id="304" parent="288" name="activity_sign">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_unicode_ci</CollationName>
+    </table>
+    <table id="305" parent="288" name="admin">
       <Comment>管理员</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_unicode_ci</CollationName>
     </table>
-    <table id="305" parent="288" name="blog">
+    <table id="306" parent="288" name="blog">
       <Comment>博客信息</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_unicode_ci</CollationName>
     </table>
-    <table id="306" parent="288" name="category">
+    <table id="307" parent="288" name="category">
       <Comment>博客分类</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_unicode_ci</CollationName>
     </table>
-    <table id="307" parent="288" name="collect">
+    <table id="308" parent="288" name="collect">
       <Comment>收藏</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_unicode_ci</CollationName>
     </table>
-    <table id="308" parent="288" name="comment">
+    <table id="309" parent="288" name="comment">
       <Comment>评论表</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_unicode_ci</CollationName>
     </table>
-    <table id="309" parent="288" name="likes">
+    <table id="310" parent="288" name="likes">
       <Comment>点赞</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_unicode_ci</CollationName>
     </table>
-    <table id="310" parent="288" name="notice">
+    <table id="311" parent="288" name="notice">
       <Comment>公告信息表</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_unicode_ci</CollationName>
     </table>
-    <table id="311" parent="288" name="user">
+    <table id="312" parent="288" name="user">
       <Comment>用户信息</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_unicode_ci</CollationName>
     </table>
-    <column id="312" parent="303" name="id">
+    <column id="313" parent="303" name="id">
       <AutoIncrement>4</AutoIncrement>
       <Comment>ID</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="313" parent="303" name="name">
+    <column id="314" parent="303" name="name">
       <Comment>活动名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="314" parent="303" name="descr">
+    <column id="315" parent="303" name="descr">
       <Comment>活动简介</Comment>
       <DataType>varchar(1000)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="315" parent="303" name="content">
+    <column id="316" parent="303" name="content">
       <Comment>活动内容</Comment>
       <DataType>longtext|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="316" parent="303" name="start">
+    <column id="317" parent="303" name="start">
       <Comment>开始时间</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="317" parent="303" name="end">
+    <column id="318" parent="303" name="end">
       <Comment>结束时间</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="318" parent="303" name="form">
+    <column id="319" parent="303" name="form">
       <Comment>活动形式</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="319" parent="303" name="address">
+    <column id="320" parent="303" name="address">
       <Comment>活动地址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="320" parent="303" name="host">
+    <column id="321" parent="303" name="host">
       <Comment>主办方</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="321" parent="303" name="read_count">
+    <column id="322" parent="303" name="read_count">
       <Comment>浏览量</Comment>
       <DataType>int|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>10</Position>
     </column>
-    <column id="322" parent="303" name="cover">
+    <column id="323" parent="303" name="cover">
       <Comment>封面</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>11</Position>
     </column>
-    <key id="323" parent="303" name="PRIMARY">
+    <key id="324" parent="303" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="324" parent="304" name="id">
+    <column id="325" parent="304" name="id">
+      <Comment>ID</Comment>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="326" parent="304" name="activity_id">
+      <Comment>活动ID</Comment>
+      <DataType>int|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="327" parent="304" name="user_id">
+      <DataType>int|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="328" parent="304" name="time">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <key id="329" parent="304" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="330" parent="305" name="id">
       <AutoIncrement>2</AutoIncrement>
       <Comment>ID</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="325" parent="304" name="username">
+    <column id="331" parent="305" name="username">
       <Comment>用户名</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="326" parent="304" name="password">
+    <column id="332" parent="305" name="password">
       <Comment>密码</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="327" parent="304" name="name">
+    <column id="333" parent="305" name="name">
       <Comment>姓名</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="328" parent="304" name="avatar">
+    <column id="334" parent="305" name="avatar">
       <Comment>头像</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="329" parent="304" name="role">
+    <column id="335" parent="305" name="role">
       <Comment>角色标识</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="330" parent="304" name="phone">
+    <column id="336" parent="305" name="phone">
       <Comment>电话</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="331" parent="304" name="email">
+    <column id="337" parent="305" name="email">
       <Comment>邮箱</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>8</Position>
     </column>
-    <key id="332" parent="304" name="PRIMARY">
+    <key id="338" parent="305" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="333" parent="305" name="id">
+    <column id="339" parent="306" name="id">
       <AutoIncrement>10</AutoIncrement>
       <Comment>ID</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="334" parent="305" name="title">
+    <column id="340" parent="306" name="title">
       <Comment>标题</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="335" parent="305" name="content">
+    <column id="341" parent="306" name="content">
       <Comment>内容</Comment>
       <DataType>longtext|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="336" parent="305" name="descr">
+    <column id="342" parent="306" name="descr">
       <Comment>简介</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="337" parent="305" name="cover">
+    <column id="343" parent="306" name="cover">
       <Comment>封面</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="338" parent="305" name="tags">
+    <column id="344" parent="306" name="tags">
       <Comment>标签</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="339" parent="305" name="user_id">
+    <column id="345" parent="306" name="user_id">
       <Comment>发布人ID</Comment>
       <DataType>int|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="340" parent="305" name="date">
+    <column id="346" parent="306" name="date">
       <Comment>发布日期</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="341" parent="305" name="read_count">
+    <column id="347" parent="306" name="read_count">
       <Comment>浏览量</Comment>
       <DataType>int|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>9</Position>
     </column>
-    <column id="342" parent="305" name="category_id">
+    <column id="348" parent="306" name="category_id">
       <Comment>分类ID</Comment>
       <DataType>int|0s</DataType>
       <Position>10</Position>
     </column>
-    <key id="343" parent="305" name="PRIMARY">
+    <key id="349" parent="306" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="344" parent="306" name="id">
+    <column id="350" parent="307" name="id">
       <AutoIncrement>12</AutoIncrement>
       <Comment>ID</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="345" parent="306" name="name">
+    <column id="351" parent="307" name="name">
       <Comment>分类名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
     </column>
-    <key id="346" parent="306" name="PRIMARY">
+    <key id="352" parent="307" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="347" parent="307" name="id">
+    <column id="353" parent="308" name="id">
+      <AutoIncrement>34</AutoIncrement>
+      <Comment>ID</Comment>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="354" parent="308" name="fid">
+      <Comment>关联ID</Comment>
+      <DataType>int|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="355" parent="308" name="user_id">
+      <Comment>点赞人ID</Comment>
+      <DataType>int|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="356" parent="308" name="module">
+      <Comment>模块</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <key id="357" parent="308" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="358" parent="309" name="id">
+      <AutoIncrement>11</AutoIncrement>
+      <Comment>ID</Comment>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="359" parent="309" name="content">
+      <Comment>内容</Comment>
+      <DataType>varchar(500)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="360" parent="309" name="user_id">
+      <Comment>评论人</Comment>
+      <DataType>int|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="361" parent="309" name="pid">
+      <Comment>父级ID</Comment>
+      <DataType>int|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="362" parent="309" name="root_id">
+      <Comment>根节点ID</Comment>
+      <DataType>int|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="363" parent="309" name="time">
+      <Comment>评论时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="364" parent="309" name="fid">
+      <Comment>关联ID</Comment>
+      <DataType>int|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="365" parent="309" name="module">
+      <Comment>模块</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <key id="366" parent="309" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="367" parent="310" name="id">
       <AutoIncrement>25</AutoIncrement>
       <Comment>ID</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="348" parent="307" name="fid">
+    <column id="368" parent="310" name="fid">
       <Comment>关联ID</Comment>
       <DataType>int|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="349" parent="307" name="user_id">
+    <column id="369" parent="310" name="user_id">
       <Comment>点赞人ID</Comment>
       <DataType>int|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="350" parent="307" name="module">
+    <column id="370" parent="310" name="module">
       <Comment>模块</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
-    </column>
-    <key id="351" parent="307" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-    </key>
-    <column id="352" parent="308" name="id">
-      <AutoIncrement>51</AutoIncrement>
-      <Comment>ID</Comment>
-      <DataType>int|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="353" parent="308" name="content">
-      <Comment>内容</Comment>
-      <DataType>varchar(500)|0s</DataType>
-      <Position>2</Position>
-    </column>
-    <column id="354" parent="308" name="user_id">
-      <Comment>评论人</Comment>
-      <DataType>int|0s</DataType>
-      <Position>3</Position>
-    </column>
-    <column id="355" parent="308" name="pid">
-      <Comment>父级ID</Comment>
-      <DataType>int|0s</DataType>
-      <Position>4</Position>
-    </column>
-    <column id="356" parent="308" name="root_id">
-      <Comment>根节点ID</Comment>
-      <DataType>int|0s</DataType>
-      <Position>5</Position>
-    </column>
-    <column id="357" parent="308" name="time">
-      <Comment>评论时间</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <Position>6</Position>
-    </column>
-    <column id="358" parent="308" name="fid">
-      <Comment>关联ID</Comment>
-      <DataType>int|0s</DataType>
-      <Position>7</Position>
-    </column>
-    <column id="359" parent="308" name="module">
-      <Comment>模块</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <Position>8</Position>
-    </column>
-    <key id="360" parent="308" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-    </key>
-    <column id="361" parent="309" name="id">
-      <AutoIncrement>1</AutoIncrement>
-      <Comment>ID</Comment>
-      <DataType>int|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="362" parent="309" name="fid">
-      <Comment>关联ID</Comment>
-      <DataType>int|0s</DataType>
-      <Position>2</Position>
-    </column>
-    <column id="363" parent="309" name="user_id">
-      <Comment>点赞人ID</Comment>
-      <DataType>int|0s</DataType>
-      <Position>3</Position>
-    </column>
-    <column id="364" parent="309" name="module">
-      <Comment>模块</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <Position>4</Position>
-    </column>
-    <key id="365" parent="309" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-    </key>
-    <column id="366" parent="310" name="id">
-      <AutoIncrement>4</AutoIncrement>
-      <Comment>ID</Comment>
-      <DataType>int|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="367" parent="310" name="title">
-      <Comment>标题</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <Position>2</Position>
-    </column>
-    <column id="368" parent="310" name="content">
-      <Comment>内容</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <Position>3</Position>
-    </column>
-    <column id="369" parent="310" name="time">
-      <Comment>创建时间</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <Position>4</Position>
-    </column>
-    <column id="370" parent="310" name="user">
-      <Comment>创建人</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <Position>5</Position>
     </column>
     <key id="371" parent="310" name="PRIMARY">
       <ColNames>id</ColNames>
@@ -1409,63 +1405,95 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Primary>1</Primary>
     </key>
     <column id="372" parent="311" name="id">
+      <AutoIncrement>4</AutoIncrement>
+      <Comment>ID</Comment>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="373" parent="311" name="title">
+      <Comment>标题</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="374" parent="311" name="content">
+      <Comment>内容</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="375" parent="311" name="time">
+      <Comment>创建时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="376" parent="311" name="user">
+      <Comment>创建人</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <key id="377" parent="311" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="378" parent="312" name="id">
       <AutoIncrement>18</AutoIncrement>
       <Comment>ID</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="373" parent="311" name="username">
+    <column id="379" parent="312" name="username">
       <Comment>用户名</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="374" parent="311" name="password">
+    <column id="380" parent="312" name="password">
       <Comment>密码</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="375" parent="311" name="name">
+    <column id="381" parent="312" name="name">
       <Comment>姓名</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="376" parent="311" name="avatar">
+    <column id="382" parent="312" name="avatar">
       <Comment>头像</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="377" parent="311" name="role">
+    <column id="383" parent="312" name="role">
       <Comment>角色标识</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="378" parent="311" name="sex">
+    <column id="384" parent="312" name="sex">
       <Comment>性别</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>7</Position>
     </column>
-    <column id="379" parent="311" name="phone">
+    <column id="385" parent="312" name="phone">
       <Comment>电话</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>8</Position>
     </column>
-    <column id="380" parent="311" name="email">
+    <column id="386" parent="312" name="email">
       <Comment>邮箱</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="381" parent="311" name="info">
+    <column id="387" parent="312" name="info">
       <Comment>简介</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="382" parent="311" name="birth">
+    <column id="388" parent="312" name="birth">
       <Comment>生日</Comment>
       <DataType>varchar(255)|0s</DataType>
       <Position>11</Position>
     </column>
-    <key id="383" parent="311" name="PRIMARY">
+    <key id="389" parent="312" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>

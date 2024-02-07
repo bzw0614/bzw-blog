@@ -1,8 +1,8 @@
 <template>
-  <div class="main-content">
+  <div class="main-content" style="width: 80%">
     <div style="display: flex; grid-gap: 10px">
 
-      <div style="flex: 1">
+      <div style="flex: 1;width: 0" >
         <div class="card" style="padding: 30px; margin-bottom: 10px">
           <div style="font-weight: bold; font-size: 24px; margin-bottom: 20px">{{blog.title }}</div>
           <div style="color: #666; margin-bottom: 20px">
@@ -14,7 +14,7 @@
             </span>
           </div>
 
-          <div class="w-e-text">
+          <div class="w-e-text" style="width: 100%">
             <div v-html="blog.content"></div>
           </div>
         </div>
@@ -106,6 +106,8 @@ export default {
   },
   created() {
     this.load()
+    this.blog.readCount+=1
+    this.$request.put('/blog/updateReadCount/'+this.blogId)
   },
   methods: {
 
@@ -180,5 +182,12 @@ p {
 }
 .recommend-title:hover {
   color: #2a60c9;
+}
+pre {
+  white-space: pre-wrap; /*css-3*/
+  white-space: -moz-pre-wrap; /*Mozilla,since1999*/
+  white-space: pre-wrap; /*Opera4-6*/
+  white-space: -o-pre-wrap; /*Opera7*/
+  word-wrap: break-word; /*InternetExplorer5.5+*/
 }
 </style>

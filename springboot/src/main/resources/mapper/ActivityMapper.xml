@@ -34,6 +34,48 @@
         where id = #{id}
     </select>
 
+    <select id="selectUser" resultType="com.example.entity.Activity">
+        select
+        activity.*
+        from activity_sign
+        left join activity
+        on activity_sign.activity_id = activity.id
+        <where>
+            <if test="name != null"> and activity.name like concat('%', #{name}, '%')</if>
+            and activity_sign.user_id = #{userId}
+        </where>
+        order by id desc
+    </select>
+
+
+    <select id="selectLike" resultType="com.example.entity.Activity">
+        select
+        activity.*
+        from likes
+        left join activity
+        on likes.fid = activity.id
+        <where>
+            and likes.module = '活动'
+            <if test="name != null"> and activity.name like concat('%', #{name}, '%')</if>
+            <if test="userId != null">  and likes.user_id = #{userId}</if>
+        </where>
+        order by id desc
+    </select>
+
+    <select id="selectCollect" resultType="com.example.entity.Activity">
+        select
+        activity.*
+        from collect
+        left join activity
+        on collect.fid = activity.id
+        <where>
+            and collect.module = '活动'
+            <if test="name != null"> and activity.name like concat('%', #{name}, '%')</if>
+            <if test="userId != null">  and collect.user_id = #{userId}</if>
+        </where>
+        order by id desc
+    </select>
+
 
     <delete id="deleteById">
         delete from activity

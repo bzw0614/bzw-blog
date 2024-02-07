@@ -158,4 +158,64 @@ public class BlogService {
         });
         return blogSet;
     }
+
+    public void updateReadCount(Integer blogId) {
+        blogMapper.updateReadCount(blogId);
+    }
+    public PageInfo<Blog> selectUser(Blog blog,Integer pageNum,Integer pageSize){
+        Account currentUser = TokenUtils.getCurrentUser();
+        if(RoleEnum.USER.name().equals(currentUser.getRole())){
+            blog.setUserId(currentUser.getId());
+        }
+        return selectPage(blog,pageNum,pageSize);
+    }
+
+    // 查询用户点赞的数据
+    public PageInfo<Blog> selectLike(Blog blog, Integer pageNum, Integer pageSize) {
+        Account currentUser = TokenUtils.getCurrentUser();
+        if (RoleEnum.USER.name().equals(currentUser.getRole())) {
+            blog.setUserId(currentUser.getId());
+        }
+        PageHelper.startPage(pageNum, pageSize);
+        List<Blog> list = blogMapper.selectLike(blog);
+        PageInfo<Blog> pageInfo = PageInfo.of(list);
+        List<Blog> blogList = pageInfo.getList();
+        for (Blog b : blogList) {
+            int likesCount = likesService.selectByFidAndModule(b.getId(), LikesModuleEnum.BLOG.getValue());
+            b.setLikesCount(likesCount);
+        }
+        return pageInfo;
+    }
+
+    public PageInfo<Blog> selectCollect(Blog blog, Integer pageNum, Integer pageSize) {
+        Account currentUser = TokenUtils.getCurrentUser();
+        if (RoleEnum.USER.name().equals(currentUser.getRole())) {
+            blog.setUserId(currentUser.getId());
+        }
+        PageHelper.startPage(pageNum, pageSize);
+        List<Blog> list = blogMapper.selectCollect(blog);
+        PageInfo<Blog> pageInfo = PageInfo.of(list);
+        List<Blog> blogList = pageInfo.getList();
+        for (Blog b : blogList) {
+            int likesCount = likesService.selectByFidAndModule(b.getId(), LikesModuleEnum.BLOG.getValue());
+            b.setLikesCount(likesCount);
+        }
+        return pageInfo;
+    }
+
+//    public PageInfo<Blog> selectComment(Blog blog, Integer pageNum, Integer pageSize) {
+//        Account currentUser = TokenUtils.getCurrentUser();
+//        if (RoleEnum.USER.name().equals(currentUser.getRole())) {
+//            blog.setUserId(currentUser.getId());
+//        }
+//        PageHelper.startPage(pageNum, pageSize);
+//        List<Blog> list = blogMapper.selectComment(blog);
+//        PageInfo<Blog> pageInfo = PageInfo.of(list);
+//        List<Blog> blogList = pageInfo.getList();
+//        for (Blog b : blogList) {
+//            int likesCount = likesService.selectByFidAndModule(b.getId(), LikesModuleEnum.BLOG.getValue());
+//            b.setLikesCount(likesCount);
+//        }
+//        return pageInfo;
+//    }
 }

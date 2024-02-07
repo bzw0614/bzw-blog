@@ -25,5 +25,15 @@ public class Activity {
     private Integer readCount;
     private String content;
     private String cover;
+    private Boolean isEnd;
+
+    private Boolean isSign;
+
+    private Boolean isLike;
+    private Boolean isCollect;
+    private Integer likesCount;
+    private Integer collectCount;
+    private Integer userId;
+
 
 }

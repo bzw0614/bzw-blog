@@ -56,6 +56,12 @@ public class BlogController {
         return Result.success();
     }
 
+    @PutMapping("/updateReadCount/{blogId}")
+    public Result updateReadCount(@PathVariable Integer blogId) {
+        blogService.updateReadCount(blogId);
+        return Result.success();
+    }
+
     /**
      * 根据ID查询
      */
@@ -85,6 +91,48 @@ public class BlogController {
         PageInfo<Blog> page = blogService.selectPage(blog, pageNum, pageSize);
         return Result.success(page);
     }
+
+
+    @GetMapping("/selectUser")
+    public Result selectUser(Blog blog,
+                             @RequestParam(defaultValue = "1") Integer pageNum,
+                             @RequestParam(defaultValue = "10") Integer pageSize) {
+        PageInfo<Blog> page = blogService.selectUser(blog, pageNum, pageSize);
+        return Result.success(page);
+    }
+
+    /**
+     * 分页查询当前用户点赞的博客列表
+     */
+    @GetMapping("/selectLike")
+    public Result selectLike(Blog blog,
+                             @RequestParam(defaultValue = "1") Integer pageNum,
+                             @RequestParam(defaultValue = "10") Integer pageSize) {
+        PageInfo<Blog> page = blogService.selectLike(blog, pageNum, pageSize);
+        return Result.success(page);
+    }
+
+    /**
+     * 分页查询当前用户收藏的博客列表
+     */
+    @GetMapping("/selectCollect")
+    public Result selectCollect(Blog blog,
+                                @RequestParam(defaultValue = "1") Integer pageNum,
+                                @RequestParam(defaultValue = "10") Integer pageSize) {
+        PageInfo<Blog> page = blogService.selectCollect(blog, pageNum, pageSize);
+        return Result.success(page);
+    }
+
+    /**
+     * 分页查询当前用户评论的博客列表
+     */
+//    @GetMapping("/selectComment")
+//    public Result selectComment(Blog blog,
+//                                @RequestParam(defaultValue = "1") Integer pageNum,
+//                                @RequestParam(defaultValue = "10") Integer pageSize) {
+//        PageInfo<Blog> page = blogService.selectComment(blog, pageNum, pageSize);
+//        return Result.success(page);
+//    }
 
     /**
      * 博客榜单
